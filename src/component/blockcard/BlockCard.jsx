@@ -1,12 +1,15 @@
 import React from 'react'
 import './blockcard.css'
 import img from '../../asset/logo.png'
-const BlockCard = ({imgname, boldtext, text, text2, number, grade, className, className1}) => {
+const BlockCard = ({imgname, boldtext, text, text2, number, grade, className, className1, content, offerbox, icon}) => {
   return (
     <div className='blockcard'>
       <div className="blockcard-image">
+        {{content, offerbox, icon} &&
+          <p className={offerbox}><i className={icon}></i> {content}</p>
+        }
         <img src={img} alt="" />
-        <p>{imgname}</p>
+        <p id='imgname'>{imgname}</p>
       </div>
       <div className="blockcard-content">
         <p><span>{boldtext}</span>{text}</p>

@@ -1,3 +1,4 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 .home{
     width: 1592px;
     padding: 30px;
@@ -76,3 +77,16 @@
 .unchecked{
     color: #f7e0b6;
 }
+
+.offer-box{
+    background: #FF7724;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffff;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 0px 8px 8px 0px;
+}
+

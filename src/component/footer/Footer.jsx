@@ -11,26 +11,25 @@ const Footer = () =>{
       <div className="footer-col">
         <h4>Categories</h4>
         <ul>
-          <li>Web Builder</li>
-          <li>Hosting</li>
-          <li>Data Center</li>
-          <li>Robotic-Automation</li>
+          <li><a href="#a">Web Builder</a></li>
+          <li><a href="#a">Hosting</a></li>
+          <li><a href="#a">Data Center</a></li>
+          <li><a href="#a">Robotic-Automation</a></li>
         </ul>
       </div>
       <div className="footer-col">
         <h4>Contact</h4>
         <ul>
-          <li>Contact</li>
-          <li>Privacy Policy</li>
-          <li>Terms Of Service</li>
-          <li>Categories</li>
-          <li>About</li>
+          <li><a href="#a">Contact</a></li>
+          <li><a href="#a">Privacy Policy</a></li>
+          <li><a href="#a">Terms Of Service</a></li>
+          <li><a href="#a">Categories</a></li>
+          <li><a href="#a">About</a></li>
         </ul>
       </div>
-      <div className="footer-col">
-        <br />
+      <div className="footer-col2">
         <ul>
-          <li>United States <i className="fa fa-angle-down"> </i></li>
+          <li><a href="#a">United States <i className="fa fa-angle-down"> </i></a></li>
         </ul>
       </div>
     </div>

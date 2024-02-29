@@ -8,8 +8,6 @@
 
 .blockcard-image{
     width: 20%;
-    padding: 10px;
-    margin: auto;
 }
 
 .blockcard-image img{
@@ -17,7 +15,7 @@
     height: auto;
 }
 
-.blockcard-image p{
+.blockcard-image #imgname{
     text-align: center;
     font-weight: 400;
     font-size: 13px;

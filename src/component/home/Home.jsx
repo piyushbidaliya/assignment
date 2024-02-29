@@ -14,8 +14,8 @@ const SignUp =()=>{
       </div>
     </>
   )
-
 }
+
 
 
 
@@ -27,6 +27,7 @@ const Home = () => {
             <Header/>
         </div>
         <div className="home-blockcard">
+
             <BlockCard
               imgname='Builder 1'
               boldtext='WixPro 72-inch Responsive Website Builder-'
@@ -38,7 +39,11 @@ const Home = () => {
               grade='Exceptional'
               className='fa fa-star checked'
               className1='fa fa-star checked'
+              content='Best Choice'
+              offerbox='offer-box'
+              icon='fa fa-trophy'
             />
+
             <BlockCard
               imgname='Builder'
               boldtext='SiteCraft 68-Inch Ultimate Web Design Studio- '
@@ -50,6 +55,9 @@ const Home = () => {
               grade='Excellent'
               className='fa fa-star checked'
               className1='fa fa-star half-checked'
+              content='Best Value'
+              offerbox='offer-box'
+              icon='fa fa-diamond'
             />
             <BlockCard
               imgname='Builder 1'

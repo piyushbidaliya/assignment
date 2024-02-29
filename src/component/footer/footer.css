@@ -1,5 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
-
+@import url('https://kit.fontawesome.com/a076d05399.js');
 
 .footer{
     background: var(--color-navbar);
@@ -18,7 +18,6 @@
 .footer-row{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
 }
 ul{
 	list-style: none;
@@ -51,7 +50,7 @@ ul{
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
-.footer-col ul li a, .footer-col ul p, .footer-col ul li{
+.footer-col ul li a, .footer-col ul li, .footer-col2 ul li a{
 	font-size: 13px;
 	text-transform: capitalize;
 	color: #D1D6DA;
@@ -59,14 +58,11 @@ ul{
 	font-weight: 400;
     line-height: 20px;
 	display: block;
-	transition: all 0.3s ease;
 }
 
-
-
-.footer-col li span, .footer-col ul p{
-	color: var(--color-title);
+.footer-col2{
+	width: 35%;
+	margin: auto;
 }
-
 
 
