@@ -1,0 +1,78 @@
+.home{
+    width: 1592px;
+    padding: 30px;
+    background: #edf4fb;
+
+}
+
+.home-container{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.home-signup{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-signup-heading{
+    width: 70%;
+}
+
+.home-signup-heading h4{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #5C6874;
+}
+  
+.home-signup-btn, .home-signup-btn input[type="text"] {
+    border: none;
+    margin-left: 5px; 
+    display: flex;
+}
+
+.home-signup-btn input[type="text"] {
+    background-color: #ffff;
+    padding: 5px 15px;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.home-signup-btn p{
+    background: var(--color-btn);
+    padding: 10px;
+    width: fit-content;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #ffff;
+
+}
+  
+.checked{
+    color: orange;
+}
+
+.half-checked{
+    color: orange;
+    clip-path: inset(0 50% 0 0);
+}
+
+.home-card{
+    display: flex;
+}
+
+.home-container h1{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    color: #2C384A;
+
+}
+
+.unchecked{
+    color: #f7e0b6;
+}

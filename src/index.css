@@ -1,13 +1,20 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,400&display=swap");
+:root {
+  --font-family: 'EB Garamond', serif;
+  --color-bg:#FBFCFD;
+  --color-btn:#1B88F4;
+  --color-subtext: #D1D6DA;
+  --color-text: #2C384A;
+  --color-navbar: #2a3139;
+  --color-footer: #212731;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body::-webkit-scrollbar{
+  
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+
 }
+              

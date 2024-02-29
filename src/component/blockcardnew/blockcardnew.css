@@ -1,0 +1,152 @@
+.blockcardnew{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: #ffff;
+    margin: 20px 0;
+}
+
+.blockcardnew-image{
+    width: 20%;
+    padding: 10px;
+    margin: auto;
+}
+
+.blockcardnew-image img{
+    width: 100%;
+    height: auto;
+}
+
+.blockcardnew-image p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    color: #626E79;
+}
+
+.blockcardnew-content{
+    width: 55%;
+    padding: 10px;
+}
+
+.blockcardnew-content h4{
+    font-weight: 700;
+    color: #2C384A;
+}
+
+.blockcardnew-content p, .blockcardnew-content h4{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.blockcardnew-content p{
+    font-weight: 400;
+    color: #4B5665;
+
+}
+
+.blockcardnew-content p span{
+    font-weight: 700;
+}
+
+.blockcardnew-content #btn{
+    color: var(--color-btn);
+}
+
+.blockcardnew-content #topul{
+    background: #FFF4ED;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.blockcardnew-content #off{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #074786;
+    background: #F2F4F7;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+}
+
+
+.blockcardnew-content ul li{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4B5665;
+}
+
+.blockcardnew-content ul li span{
+    background-color: #ffff;
+    padding: 2px;
+    border-radius: 4px;
+
+}
+
+.blockcardnew-content .fa-angle-down {
+    font-size: 12px;
+}
+
+.blockcardnew-rating{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25%;
+    padding: 0 10px;
+    border-radius: 0px 0px 12px 12px;
+
+}
+
+.blockcardnew-rating-content{
+    width: 135px;
+    height: 118px;
+    background: #F3F9FF;
+    margin: 0 auto;
+}
+
+.blockcardnew-rating-content h1{
+    color: #074786;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: center;
+}
+
+.blockcardnew-rating-content h4{
+    color: #074786;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.blockcardnew-rating-content p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.blockcardnew-rating-btn{
+    position: relative;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.blockcardnew-rating-btn p{
+    background: var(--color-btn);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bgcolor{
+    color: lightblue;
+}
+

@@ -1,0 +1,7 @@
+export {default as BlockCard} from './blockcard/BlockCard'
+export {default as BlockCardNew} from './blockcardnew/BlockCardNew'
+export {default as Card} from './card/Card'
+export {default as Footer} from './footer/Footer'
+export {default as Header} from './header/Header'
+export {default as Home} from './home/Home'
+export {default as Navbar} from './navbar/Navbar'
